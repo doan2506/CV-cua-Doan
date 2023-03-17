@@ -23,31 +23,9 @@ button {
     position: relative;
     display: block;
 }
-#dropdown-content1 {
+.dropdown-content {
     display: none;
     position: absolute;
-    width: 270px;
-}
-#dropdown-content2 {
-    display: none;
-    position: absolute;
-    width: 270px;
-}
-#dropdown-content3 {
-    display: none;
-    position: absolute;
-    width: 460px;
-    padding: 10px;
-}
-#dropdown-content4 {
-    display: none;
-    position: absolute;
-    width: 470px;
-}
-#dropdown-content5 {
-    display: none;
-    position: absolute;
-    width: 470px;
 }
 .grid-container {
     position: relative;
