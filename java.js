@@ -1,40 +1,40 @@
 function myFunction1() {
-    var x = document.getElementById("dropdown-content1");
-    if(x.style.display == "none") {
-        x.style.display = "block";
+    const x = document.getElementsByClassName("dropdown")[0];
+    if(x.getElementsByClassName("dropdown-content")[0].style.display == "none") {
+        x.getElementsByClassName("dropdown-content")[0].style.display = "block";
     } else {
-        x.style.display = "none";
+        x.getElementsByClassName("dropdown-content")[0].style.display = "none";
     }
 }
 function myFunction2() {
-    var x = document.getElementById("dropdown-content2");
-    if(x.style.display == "none") {
-        x.style.display = "block";
+    const x = document.getElementsByClassName("dropdown")[1];
+    if(x.getElementsByClassName("dropdown-content")[0].style.display == "none") {
+        x.getElementsByClassName("dropdown-content")[0].style.display = "block";
     } else {
-        x.style.display = "none";
+        x.getElementsByClassName("dropdown-content")[0].style.display = "none";
     }
 }
 function myFunction3() {
-    var x = document.getElementById("dropdown-content3");
-    if(x.style.display == "none") {
-        x.style.display = "block";
+    const x = document.getElementsByClassName("dropdown")[2];
+    if(x.getElementsByClassName("dropdown-content")[0].style.display == "none") {
+        x.getElementsByClassName("dropdown-content")[0].style.display = "block";
     } else {
-        x.style.display = "none";
+        x.getElementsByClassName("dropdown-content")[0].style.display = "none";
     }
 }
 function myFunction4() {
-    var x = document.getElementById("dropdown-content4");
-    if(x.style.display == "none") {
-        x.style.display = "block";
+    const x = document.getElementsByClassName("dropdown")[3];
+    if(x.getElementsByClassName("dropdown-content")[0].style.display == "none") {
+        x.getElementsByClassName("dropdown-content")[0].style.display = "block";
     } else {
-        x.style.display = "none";
+        x.getElementsByClassName("dropdown-content")[0].style.display = "none";
     }
 }
 function myFunction5() {
-    var x = document.getElementById("dropdown-content5");
-    if(x.style.display == "none") {
-        x.style.display = "block";
+    const x = document.getElementsByClassName("dropdown")[4];
+    if(x.getElementsByClassName("dropdown-content")[0].style.display == "none") {
+        x.getElementsByClassName("dropdown-content")[0].style.display = "block";
     } else {
-        x.style.display = "none";
+        x.getElementsByClassName("dropdown-content")[0].style.display = "none";
     }
 }
